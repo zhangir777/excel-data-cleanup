@@ -82,6 +82,7 @@ def _summary_sheet(ws: Worksheet, result: Result) -> None:
         chart.title, chart.legend = "Amount by month", None
         chart.height, chart.width = 7, 14
         chart.y_axis.scaling.min = 0  # bars start at zero, so months compare honestly
+        chart.x_axis.delete = chart.y_axis.delete = False  # openpyxl 3.1 hides the axes otherwise
         data = Reference(ws, min_col=2, min_row=month_top + 1, max_row=month_top + len(by_month))
         cats = Reference(ws, min_col=1, min_row=month_top + 1, max_row=month_top + len(by_month))
         chart.add_data(data)
