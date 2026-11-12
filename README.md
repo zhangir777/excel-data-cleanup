@@ -6,6 +6,8 @@
 
 **Hire me:** [Upwork](https://www.upwork.com/freelancers/~012c68804f9b4d4550) · [Fiverr](https://www.fiverr.com/akhmetov_zhangi) · [Telegram @ZhangirAkhmetov](https://t.me/ZhangirAkhmetov)
 
+**[Watch the demo video (mp4)](docs/demo.mp4)**
+
 ![The same rows before and after cleaning](docs/screenshots/before_after.png)
 
 *The same 12 rows from [`samples/messy_sales.csv`](samples/messy_sales.csv) before and after cleaning. All names and numbers are made up.*
